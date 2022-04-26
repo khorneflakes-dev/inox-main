@@ -1,0 +1,1063 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mada:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mada:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mada:wght@300&display=swap");
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-color: white;
+}
+
+.socials {
+  cursor: pointer;
+  position: fixed;
+  z-index: 500;
+  top: 85vh;
+  left: 85vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 12vh;
+  width: 11vw;
+  gap: 1vw;
+}
+
+.socials img {
+  height: 100%;
+  width: 100%;
+  -webkit-filter: drop-shadow(-2px 2px 2px rgba(29, 29, 29, 0.685));
+          filter: drop-shadow(-2px 2px 2px rgba(29, 29, 29, 0.685));
+}
+
+.navbar {
+  -webkit-transition: top ease-in-out 0.5s;
+  transition: top ease-in-out 0.5s;
+  position: fixed;
+  z-index: 510;
+  width: 100vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #052344;
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #052344), color-stop(50%, #0d529d), color-stop(85%, #052344));
+  background: linear-gradient(90deg, #052344 15%, #0d529d 50%, #052344 85%);
+  border-bottom: 1px solid white;
+}
+
+.navbar .logo {
+  padding-right: 0vw;
+  padding-left: 1vw;
+}
+
+.navbar .navbar-options {
+  -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3.5vh;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.navbar .navbar-options a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .navbar-options .main-logo img {
+  height: 6.5vh;
+}
+
+.header {
+  font-family: 'Bebas Neue', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30vh;
+  padding-top: 10vh;
+}
+
+.header .imagen-contacto {
+  position: relative;
+  height: 30vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.header .imagen-contacto img {
+  width: 100%;
+}
+
+.header .texto {
+  background: #052644;
+  background: -webkit-gradient(linear, left top, right top, from(#052644), color-stop(40%, rgba(36, 34, 77, 0.606863)), to(rgba(27, 0, 255, 0)));
+  background: linear-gradient(90deg, #052644 0%, rgba(36, 34, 77, 0.606863) 40%, rgba(27, 0, 255, 0) 100%);
+  padding-left: 10.5vh;
+  height: 25vh;
+  padding-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  width: 50vw;
+  padding-top: 5vh;
+}
+
+.header .texto .texto-header1 {
+  font-size: 4vh;
+  margin-top: 2vh;
+  width: 100%;
+}
+
+.header .texto .texto-header1 p {
+  text-align: end;
+}
+
+.header .texto .texto-header2 {
+  margin-top: 0.5vh;
+  font-family: 'Mada', sans-serif;
+  font-weight: 300;
+  width: 100%;
+  font-size: 2.6vh;
+}
+
+.seccion1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20vh;
+  margin-right: 20vw;
+  margin-left: 20vw;
+  font-family: 'Bebas Neue', cursive;
+  gap: 2.5vw;
+}
+
+.seccion1 .formulario-contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33vw;
+}
+
+.seccion1 .formulario-contacto .title {
+  color: black;
+  font-size: 4vh;
+  font-family: 'Bebas Neue', cursive;
+  width: inherit;
+  margin-bottom: 2vh;
+  text-align: justify;
+}
+
+.seccion1 .formulario-contacto .formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3vh;
+}
+
+.seccion1 .formulario-contacto .formulario .send {
+  width: 33vw;
+  padding-top: 2vh;
+  display: inline-block;
+  margin: 0;
+  padding-bottom: 5vh;
+}
+
+.seccion1 .formulario-contacto .formulario .send button {
+  text-decoration: none;
+  width: 7vw;
+  height: 6vh;
+  border-radius: 1.5vh;
+  border: 0;
+  color: white;
+  font-size: 3vh;
+  font-family: 'Bebas Neue', cursive;
+  cursor: pointer;
+  background-color: #0d529D;
+}
+
+.seccion1 .formulario-contacto .formulario ::-webkit-input-placeholder {
+  color: #3d3d3d;
+}
+
+.seccion1 .formulario-contacto .formulario :-ms-input-placeholder {
+  color: #3d3d3d;
+}
+
+.seccion1 .formulario-contacto .formulario ::-ms-input-placeholder {
+  color: #3d3d3d;
+}
+
+.seccion1 .formulario-contacto .formulario ::placeholder {
+  color: #3d3d3d;
+}
+
+.seccion1 .formulario-contacto .formulario .input-border {
+  border-bottom: 1px solid rgba(99, 99, 99, 0.329);
+  height: 4vh;
+  width: 100%;
+}
+
+.seccion1 .formulario-contacto .formulario input {
+  font-size: 2.5vh;
+  font-family: 'Mada', sans-serif;
+  font-weight: 200;
+  outline: none;
+  height: 4vh;
+  background-color: transparent;
+  border: 0;
+  color: #292929;
+  width: 100%;
+}
+
+.seccion1 .formulario-contacto .formulario input:focus {
+  border: none;
+}
+
+.seccion1 .formulario-contacto .formulario textarea {
+  padding-top: 1vh;
+  width: 35vw;
+  height: 15vh;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid rgba(99, 99, 99, 0.295);
+  font-size: 2.5vh;
+  font-family: 'Mada', sans-serif;
+  font-weight: 200;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.seccion1 .descripcion-contactos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 22vw;
+}
+
+.seccion1 .descripcion-contactos .tiempos {
+  padding-left: 1vw;
+  padding-top: 8vh;
+  font-family: 'Mada', sans-serif;
+  font-weight: 100;
+  text-align: justify;
+}
+
+.seccion1 .descripcion-contacto {
+  padding-bottom: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: black;
+  width: 25vw;
+  font-family: 'Bebas Neue', cursive;
+  gap: 1vh;
+}
+
+.seccion1 .descripcion-contacto .title {
+  font-family: 'Mada', sans-serif;
+  font-weight: 400;
+}
+
+.seccion1 .descripcion-contacto .detailed-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2.2vh;
+}
+
+.seccion1 .descripcion-contacto .detailed-info .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.seccion1 .descripcion-contacto .detailed-info .icons .icon {
+  height: 4vh;
+}
+
+.seccion1 .descripcion-contacto .detailed-info .descriptions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.seccion1 .descripcion-contacto .detailed-info .descriptions .text {
+  font-size: 2.5vh;
+  height: 4vh;
+  font-family: 'Mada', sans-serif;
+  font-weight: 200;
+  padding-left: 1vw;
+  width: 25vw;
+}
+
+.seccion1 .descripcion-contacto .detailed-info .icon {
+  height: 4vh;
+}
+
+.seccion1 .descripcion-contacto .detailed-info .icon img {
+  height: 100%;
+}
+
+.seccion1 .descripcion-contacto .title {
+  font-size: 2.5vh;
+  width: 25vw;
+  text-align: left;
+  padding-left: 1vw;
+  color: #0d529D;
+}
+
+.seccion1 .iframe {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.seccion1 .iframe .title-iframe {
+  display: none;
+  margin: 0;
+  padding-top: 2vh;
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 2vh;
+  height: 5vh;
+  margin-bottom: 10vh;
+  margin-bottom: 10vh;
+  font-size: 2vw;
+  width: 30vw;
+}
+
+.seccion1 .iframe .lista {
+  width: 33vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  margin-left: -40px;
+  text-align: right;
+  gap: 0.5vw;
+  padding-bottom: 5vh;
+}
+
+.seccion1 .iframe .lista li {
+  color: white;
+  font-size: 1.7vw;
+  width: 6vw;
+  background-color: #0b103b;
+  border-radius: 1vh;
+  height: 4vh;
+  text-align: center;
+}
+
+.seccion1 .iframe .lista li a {
+  width: 100%;
+}
+
+.seccion1 .iframe .lista li a:link,
+.seccion1 .iframe .lista li a:visited,
+.seccion1 .iframe .lista li a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.seccion1 .iframe .mapouter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vh;
+  width: 33vw;
+  margin-right: 2vw;
+  margin-bottom: 15vh;
+  border-radius: 2vh;
+}
+
+.seccion1 .iframe .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+  border-radius: 2vh;
+}
+
+.about-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 20vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-bottom: 15vh;
+  overflow: hidden;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vh;
+}
+
+.about .imagen-about {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.about .imagen-about img {
+  margin: 0;
+  width: 30vw;
+  border-radius: 50vh;
+}
+
+.about .descripcion-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 14vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30vw;
+  height: 60vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .descripcion-about .titulo-descripcion {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 4vh;
+  font-family: 'Mada', sans-serif;
+  font-weight: 300;
+  color: #0d529D;
+}
+
+.about .descripcion-about .titulo-descripcion-segundo {
+  width: 100%;
+  text-align: right;
+  font-size: 4vh;
+  font-family: 'Mada', sans-serif;
+  font-weight: 300;
+  color: #0d529D;
+}
+
+.about .descripcion-about .texto-descripcion {
+  padding-top: 2vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 24vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  font-size: 3.1vh;
+  font-family: 'Mada', sans-serif;
+  font-weight: 100;
+}
+
+.about .descripcion-about .segundo {
+  text-align: right;
+}
+
+.equipo {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 10vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.equipo .titulo {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 6vh;
+}
+
+.equipo .sedcards {
+  padding-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1vw;
+  height: 60vh;
+}
+
+.equipo .sedcards .sedcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 3vh;
+  width: 20vw;
+  font-family: 'Mada', sans-serif;
+}
+
+.equipo .sedcards .sedcard .name {
+  font-size: 2.5vh;
+  height: 3vh;
+  font-weight: 200;
+  padding-top: 2vh;
+}
+
+.equipo .sedcards .sedcard .description {
+  font-size: 3vh;
+  font-weight: 300;
+  font-family: 'Bebas Neue', cursive;
+  height: 3vh;
+}
+
+.equipo .sedcards .sedcard img {
+  height: 100%;
+  width: 100%;
+  border-radius: 3vh;
+}
+
+.equipo .info-detallada {
+  padding-top: 5vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Mada', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.equipo .info-detallada .info1 {
+  padding-bottom: 2vh;
+}
+
+.footer {
+  height: 55vh;
+  background-color: #081E36;
+  color: white;
+  overflow: hidden;
+}
+
+.footer .title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3vh;
+}
+
+.footer .detailed {
+  padding-top: 1vh;
+  font-family: 'Mada', sans-serif;
+  font-size: 1.7vh;
+}
+
+.footer .subdetailed {
+  padding-top: 0.7vh;
+}
+
+.footer .detailed2 {
+  font-family: 'Mada', sans-serif;
+  font-size: 1.7vh;
+}
+
+.footer .footer-cuerpo {
+  padding-left: 2.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 17vh;
+  height: 29vh;
+}
+
+.footer .footer-cuerpo .marca {
+  width: 25vw;
+}
+
+.footer .footer-cuerpo .marca .logo {
+  height: 6.5vh;
+}
+
+.footer .footer-cuerpo .marca .logo img {
+  height: 100%;
+}
+
+.footer .footer-cuerpo .marca .detailed {
+  padding-top: 1vh;
+}
+
+.footer .footer-cuerpo .marca .detailed2 {
+  padding-top: 1vh;
+}
+
+.footer .footer-cuerpo .shop {
+  width: 13vw;
+}
+
+.footer .footer-cuerpo .about {
+  display: inline;
+  width: 12vw;
+}
+
+.footer .footer-cuerpo .global {
+  width: 13vw;
+  padding-right: 15vw;
+}
+
+.footer .footer-creditos {
+  height: 20vh;
+  width: 50vw;
+  font-size: 1.7vh;
+  font-family: 'Mada', sans-serif;
+  font-weight: 100;
+  border-top: 1px solid rgba(255, 255, 255, 0.384);
+  height: 10vh;
+  width: 100%;
+  padding-left: 4.7vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-creditos .marca-registrada {
+  padding-top: 3vh;
+  width: 100%;
+}
+
+.footer-main {
+  position: relative;
+  height: 55vh;
+}
+
+.footer-main .footer {
+  margin-top: 10vh;
+  position: absolute;
+  width: 100%;
+}
+
+.footer-main .footer-logo {
+  position: absolute;
+  width: 10vw;
+  left: 45vw;
+  padding-top: -5vh;
+}
+
+.footer-main .footer-logo img {
+  width: 100%;
+}
+
+.servicios {
+  padding-top: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  gap: 1vw;
+}
+
+.servicios .servicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 19vw;
+  height: 40vh;
+  z-index: 300;
+  overflow: hidden;
+  border-radius: 2vh;
+  margin-bottom: 5vh;
+}
+
+.servicios .servicio:hover .titulo-servicio {
+  height: 50%;
+}
+
+.servicios .servicio:hover .servicios-descripcion {
+  -webkit-filter: opacity(100%);
+          filter: opacity(100%);
+}
+
+.servicios .servicio:hover .fondo-descripcion {
+  -webkit-filter: opacity(100%);
+          filter: opacity(100%);
+}
+
+.servicios .servicio:hover .boton {
+  -webkit-filter: opacity(100%);
+          filter: opacity(100%);
+}
+
+.servicios .servicio .imagen-fondo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.servicios .servicio .imagen-fondo img {
+  height: 100%;
+  width: 100%;
+}
+
+.servicios .servicio .titulo-servicio {
+  position: absolute;
+  z-index: 350;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 5vh;
+  background-color: rgba(0, 0, 0, 0.021);
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.servicios .servicio .servicios-descripcion {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 360;
+  color: white;
+  font-size: 2.4vh;
+  font-family: 'Mada', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 83%;
+  width: 17vw;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  -webkit-filter: opacity(0%);
+          filter: opacity(0%);
+}
+
+.servicios .servicio .fondo-descripcion {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 320;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  -webkit-filter: opacity(0%);
+          filter: opacity(0%);
+}
+
+.servicios .servicio .fondo-descripcion .azul {
+  background-color: #081e36bf;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+}
+
+.servicios .servicio .boton {
+  height: 95%;
+  width: 19vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  z-index: 330;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  -webkit-filter: opacity(0%);
+          filter: opacity(0%);
+}
+
+.servicios .servicio .boton .boton-texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3vh;
+  color: #081E36;
+  background-color: white;
+  width: 15vw;
+  height: 5vh;
+  border-radius: 2vh;
+}
+
+.servicios .servicio .boton .boton-texto a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.servicios .servicio .boton .boton-texto a:active {
+  color: #081E36;
+}
+
+.servicios .servicio .boton .boton-texto a:visited {
+  color: #081E36;
+}
+
+.categoria {
+  height: 100vh;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 10vh;
+  color: #081E36;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 20vh;
+}
+
+.productos .producto {
+  width: 18vw;
+  margin-top: 5vh;
+  height: 65vh;
+  border-radius: 2vh;
+  background-color: #081E36;
+}
+
+.categoria2 {
+  height: 100vh;
+  background-color: gray;
+}
+
+.preloader {
+  height: 100vh;
+  position: fixed;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 9vw;
+  padding-right: 9vw;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.preloader .logo-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 18.5vw;
+  height: 50vh;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.preloader .logo-main img {
+  width: 100%;
+}
+
+.preloader .inox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35vw;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 1vw;
+  height: 50vh;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  overflow: hidden;
+}
+
+.preloader .inox .i img, .preloader .inox .n img, .preloader .inox .o img, .preloader .inox .x img {
+  width: 100%;
+}
+
+.preloader .inox .i {
+  -webkit-animation: demo 3s;
+          animation: demo 3s;
+  -webkit-transform: translateY(-100vh);
+          transform: translateY(-100vh);
+}
+
+.preloader .supply {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 28.2vw;
+  height: 25vh;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 0.5vw;
+  padding-top: 15vh;
+}
+
+.preloader .supply .s img, .preloader .supply .u img, .preloader .supply .p img, .preloader .supply .l img, .preloader .supply .y img {
+  width: 100%;
+}
+
+.preloader .supply .l {
+  -webkit-transform: translateY(-6.3vh);
+          transform: translateY(-6.3vh);
+}
+
+@-webkit-keyframes demo {
+  0% {
+    -webkit-transform: translateY(100vh);
+            transform: translateY(100vh);
+  }
+  30% {
+    -webkit-transform: translateY(0vh);
+            transform: translateY(0vh);
+  }
+  70% {
+    -webkit-transform: translateY(0vh);
+            transform: translateY(0vh);
+  }
+  100% {
+    -webkit-transform: translateY(-100vh);
+            transform: translateY(-100vh);
+  }
+}
+
+@keyframes demo {
+  0% {
+    -webkit-transform: translateY(100vh);
+            transform: translateY(100vh);
+  }
+  30% {
+    -webkit-transform: translateY(0vh);
+            transform: translateY(0vh);
+  }
+  70% {
+    -webkit-transform: translateY(0vh);
+            transform: translateY(0vh);
+  }
+  100% {
+    -webkit-transform: translateY(-100vh);
+            transform: translateY(-100vh);
+  }
+}
+/*# sourceMappingURL=contacto.css.map */
